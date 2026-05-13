@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'zh-CN' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f2ea">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    {% feed_meta %}
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="{{ '/' | relative_url }}">首页</a>
+        <a href="{{ '/archive/' | relative_url }}">文章</a>
+        <a href="{{ '/about/' | relative_url }}">关于</a>
+      </nav>
+    </header>
+
+    <main class="site-main">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <span>&copy; {{ site.time | date: '%Y' }} {{ site.author.name | default: site.title }}</span>
+      <span>Built with Jekyll and GitHub Pages.</span>
+    </footer>
+  </body>
+</html>
