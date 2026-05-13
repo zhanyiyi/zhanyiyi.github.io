@@ -5,17 +5,8 @@ title: 首页
 
 <section class="hero">
   <div>
-    <h1>记录把想法做成产品的过程。</h1>
-    <p>这里会写技术实现、产品判断、工程实践和一些阶段性复盘。先把博客搭起来，再让内容慢慢长出来。</p>
+    <h1>慢慢浸佢，慢慢叹佢</h1>
   </div>
-  <aside class="hero-panel">
-    <strong>近期关注</strong>
-    <ul>
-      <li>Jekyll 与 GitHub Pages</li>
-      <li>AI 产品与工程实践</li>
-      <li>长期项目的公开记录</li>
-    </ul>
-  </aside>
 </section>
 
 <section>
