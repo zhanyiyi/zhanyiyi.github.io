@@ -96,6 +96,7 @@ a:hover {
   font-size: clamp(42px, 7vw, 86px);
   line-height: 0.95;
   letter-spacing: 0;
+  white-space: nowrap;
 }
 
 .hero p {

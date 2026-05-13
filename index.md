@@ -5,7 +5,7 @@ title: 首页
 
 <section class="hero">
   <div>
-    <h1>慢慢浸佢，慢慢叹佢</h1>
+    <h1>慢慢浸佢，慢慢叹佢，有得食</h1>
   </div>
 </section>
 
